@@ -1,0 +1,21 @@
+{
+  "name": "parse-server",
+  "version": "0.1.0",
+  "description": "Parse API server",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tantalic/dockerized-parse-server.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "parse-server": "2.2.18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "4.5"
+  }
+}
